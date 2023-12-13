@@ -53,3 +53,10 @@ print(result["code"])
 
 print(">>>>>> GENERATED TEST:")
 print(result["test"])
+
+# Usage w/o arguments
+# pythin main.py ===> translates to --> python main.py --language python --task 'return a list of numbers'
+
+# Usage with arguments
+# python main.py --language javascript --task 'return a list of even numbers'
+
